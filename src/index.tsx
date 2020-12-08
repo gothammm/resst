@@ -1,4 +1,16 @@
-import React from 'react';
-import { render } from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
+import "../styles/tailwind.css";
 
-render(<div>Hello</div>, document.querySelector('#app'));
+import styled from "styled-components";
+
+const HelloComponent = styled.div`
+  font-weight: bold;
+`;
+
+document.addEventListener("DOMContentLoaded", function (event) {
+  render(
+    <HelloComponent>Hello</HelloComponent>,
+    document.querySelector("#app")
+  );
+});

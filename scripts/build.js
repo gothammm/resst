@@ -10,6 +10,7 @@ function copyIndexHtml() {
 
 function buildTS() {
   return esbuild.build({
+    logLevel: 'error',
     define: {
       "process.env.NODE_ENV": `"${process.env.NODE_ENV}"`,
     },

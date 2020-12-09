@@ -1,5 +1,5 @@
-# RESS
-> A [r]eact [es]build [s]tyled-components starter template, batteries included.
+# RESST
+> A [r]eact [es]build [s]tyled-components [t]ypescript starter template, batteries included.
 
 ## Quick Overview
 
@@ -17,4 +17,4 @@ Then open http://localhost:3000 to see your app.
 
 Get started with no configuration, start building components in the `src` folder.
 
-This template uses [Ant.D](https://ant.design/) for UI, [styled-components](https://styled-components.com/) for styling components, [esbuild](https://esbuild.github.io/) for compilation, and concurrently also does typechecking.
+This template uses TypeScript as the primary language, [Ant.D](https://ant.design/) for UI, [styled-components](https://styled-components.com/) for styling components, [esbuild](https://esbuild.github.io/) for compilation, and concurrently also does typechecking.

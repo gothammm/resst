@@ -1,5 +1,5 @@
 {
-  "name": "ress-template",
+  "name": "resst-template",
   "version": "1.0.0",
   "description": "A react.js esbuild starter template.",
   "main": "index.ts",

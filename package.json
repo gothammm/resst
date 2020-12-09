@@ -4,7 +4,8 @@
   "description": "A react.js esbuild starter template.",
   "main": "index.ts",
   "scripts": {
-    "dev": "node scripts/dev/run.js"
+    "dev": "node scripts/dev/run.js",
+    "clean": "rm -rf dist"
   },
   "author": "Gautham Ramachandran <gautham2r@gmail.com>",
   "license": "ISC",

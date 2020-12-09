@@ -9,7 +9,7 @@ function copyIndexHtml() {
 }
 
 module.exports = {
-  preBuild: () => {
+  postBuild: () => {
     copyIndexHtml();
   },
   build: ({

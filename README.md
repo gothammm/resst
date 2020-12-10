@@ -5,7 +5,7 @@
 
 - Clone the repository.
   ```
-    git clone https://github.com/peek4y/ress my-app
+    git clone https://github.com/peek4y/resst my-app
   ```
 - Install dependencies & run it locally.
   ```shell
